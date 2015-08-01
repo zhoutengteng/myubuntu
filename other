@@ -1,0 +1,20 @@
+Linux 以太网络卡的默认代号为 eth0, eth1 等等, 无线网卡则为 wlan0,
+ra0 等等;
+若需要自行编译网卡驱动程序时,则你必须要先安装 gcc, make,
+kernel-header 等软件。
+内部网域的私有 IP 之主机的『 IP 与主机名的对应』,最好还是写入
+/etc/hosts , 可以克服很多软件的 IP 反查所花费的等待时间。
+IP 参数设定在 /etc/sysconfig/network-scripts/ifcfg-eth0 当中,主机
+名设定在 /etc/sysconfig/network 当中, DNS 设定在 /etc/resolv.conf 当中,
+主机名与 IP 的对应设定在 /etc/hosts;
+在 GATEWAY 这个参数的设定上面,务必检查妥当,仅设定一个 GATEWAY 即
+可。
+可以使用 /etc/init.d/network restart 来重新启动整个系统的网络接口。
+若使用 DHCP 协议时,则请将 GATEWAY 取消设定,避免重复出现多个
+default gateway ,反而造成无法联机的状况。
+ADSL 拨接后可以产生一个新的实体接口,名称为 ppp0
+无线网卡与无线基地台之间的联机由于是透过无线接口,所以需要特别注意
+网络安全;
+常见的无线基地台(AP)的联机防护,主要利用控制登入者的 MAC 或者是加
+上联机加密机制的密钥等方法;
+设定网络卡可以使用 ifconfig 这个指令,而设定无线网卡则需要

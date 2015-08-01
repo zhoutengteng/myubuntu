@@ -1,0 +1,39 @@
+OSI 七层协议 (Open System Interconnection)
+ifconfig 这个指令来查阅你的网络卡卡号喔
+route && ifconfig
+route -n && ifconfig
+ICMP 的全名是『 Internet Control Message Protocol, 因特网讯息控制协议 
+在 Internet 上面有传输能力的就是 IP 封包啊
+dmesg | grep -in eth
+lspci | grep -i ethernet
+lsmod
+cat /etc/services | head -n20 | tail -n 10 && cat /etc/protocols | head -n20
+DHCP 是啥? 他是:Dynamic Host Configuration Protocol 的简写,
+无线基地台 (Wireless Access Point, 简称 AP)
+lsusu
+iwconfig
+iwlist wlan0 scan
+iwconfig ,至于扫瞄基地台, 可以使用 iwlist 这个指令。
+ifconfig && ifup&& ifdown && route&& ip
+ip link show&& ip address show
+ping && traceroute&& netstart 
+netstat -tulnp  查询端口
+telnet localhost 631  远程链接端口
+ftp ftp.ksu.edu.tw      lftp ftp.ksu.edu.tw 远程登陆昆山科大的ftp服务器
+links http://www.kernel.org  使用文字浏览器 摒除一些其他东西
+vim /etc/wgetrc 是查看代理服务器
+wget --http-user=username  --http-password=password    抓取需要提供账号和密码的网页数据
+sudo tcpdump -i wwan0 -nn port 21    监听21端口的数据包
+sudo tcpdump -i eth0 -nn 'port 22 and src host 192.168.1.101'
+yum install wireshark  wireshark-gnome  抓包软件
+nc -l localhost 20000 &   可以额外开启端口20000  然后其他终端 nc locahost 20000 可以连机localhost 20000 
+sudo nmap -sTU localhost 扫描本机上的tcp和udp端口情况
+sudo vim /etc/sysctl.conf 我手动修改了增加了linux的路由器的功能  并用systcl -p 立刻生效
+NAT(Netword Address Translation, 网络地址转换) 服务器, NAT 是啥?其实 IP 分享器就是最简单的 NAT
+NAT 比路由器多了一个『 IP 转换』的功能
+SSH 是 Secure SHell protocol 的简写 (安全的壳程序协议)
+ssh -f root@some_IP shutdown -h now 远程登陆
+只是 ssh 是用在登入而 sftp 在上传/下载文件而已 sftp 127.0.0.1
+scp /etc/hosts* student@127.0.0.1:~  上传到～目录  那个：意思是服务器上的文件  
+scp student@127.0.0.1:~  /tmp  下载到/tmp目录  那个：意思是服务器上的文件  
+利用ssh-keygen生成客户端的公钥和私钥， 然后在服务端的.ssh的新建authorized_keys文件权限为644， 然后把客户端的公钥内容输入进那个新建的文件，就可以实现免密码登陆
