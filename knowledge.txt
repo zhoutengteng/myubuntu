@@ -1,0 +1,1 @@
+关于ssh和git push 的知识  git clone  git@github.com:zhoutengteng/myubuntu.git 这样子 只需要有ssh就可以跳过每次push的时候的输入账户和密码了
