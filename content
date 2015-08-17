@@ -39,3 +39,5 @@ scp student@127.0.0.1:~  /tmp  下载到/tmp目录  那个：意思是服务器�
 利用ssh-keygen生成客户端的公钥和私钥， 然后在服务端的.ssh的新建authorized_keys文件权限为644， 然后把客户端的公钥内容输入进那个新建的文件，就可以实现免密码登陆
 pintos -- run alarm-multiple
 make tests/threads/alarm-multiple.result   单一测试
+使用which javac 来查看源目录 ，再使用 file 源目录 递归来查找最终目录
+pwd 打印当前目录
