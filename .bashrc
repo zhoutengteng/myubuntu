@@ -66,8 +66,8 @@ unset color_prompt force_color_prompt
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
 xterm*|rxvt*)
-   # PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
     PS1='${debian_chroot:+($debian_chroot)}\[\e[01;32m\]\u\[\e[00m\]@\[\e[01;31m\]$ip\[\e[00m\]:\[\e[01;33m\]\w\[\e[00m\]\$ '
+    #PS1="\[\e]0;${debian_chroot:+($debian_chroot)}\u@\h: \w\a\]$PS1"
     ;;
 *)
     ;;
@@ -113,3 +113,13 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export PATH="$PATH:/home/zhoutengteng/Desktop/pintos/src/utils"
+export zhoutengteng="zhoutengteng"
+#export ANT_HOME=/usr/share/ant
+#export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64
+#export PATH="$JAVA_HOME/bin:$ANT_HOME/bin:$PATH"
+#export CLASSPATH=.$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export SONAR_HOME=/home/zhoutengteng/Desktop/sonar-3.7.4/bin/linux-x86-64
+export SONAR_RUNNER_HOME=/home/zhoutengteng/Desktop/sonar-runner-2.4
+export PATH=$SONAR_RUNNER_HOME/bin:$PATH
