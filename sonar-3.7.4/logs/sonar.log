@@ -1,0 +1,199 @@
+STATUS | wrapper  | 2015/08/18 21:21:03 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2015/08/18 21:21:03 | Launching a JVM...
+INFO   | jvm 1    | 2015/08/18 21:21:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/08/18 21:21:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/08/18 21:21:03 | 
+INFO   | jvm 1    | 2015/08/18 21:21:04 | 2015-08-18 21:21:04.113:INFO:oejs.Server:jetty-7.6.11.v20130520
+2015.08.18 21:21:06 INFO  o.s.s.p.ServerImpl  SonarQube Server / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:07 INFO  o.s.s.d.EmbeddedDatabase  Starting embedded database on port 9092 with url jdbc:h2:tcp://localhost:9092/sonar
+2015.08.18 21:21:07 INFO  o.s.s.d.EmbeddedDatabase  Embedded database started. Data stored in: /home/zhoutengteng/Desktop/sonar-3.7.4/data
+2015.08.18 21:21:07 WARN  o.s.c.p.DefaultDatabase  H2 database should be used for evaluation purpose only
+2015.08.18 21:21:07 INFO  o.s.c.p.Database  Create JDBC datasource for jdbc:h2:tcp://localhost:9092/sonar
+STATUS | wrapper  | 2015/08/18 21:21:09 | TERM trapped.  Shutting down.
+2015.08.18 21:21:09 INFO  o.s.s.p.DefaultServerFileSystem  SonarQube home: /home/zhoutengteng/Desktop/sonar-3.7.4
+2015.08.18 21:21:09 INFO  o.s.s.p.DefaultServerFileSystem  Deploy dir: /home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/deploy
+2015.08.18 21:21:09 INFO  org.sonar.INFO  Install plugins...
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Findbugs / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin JaCoCo / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin English Pack / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Maven Batch Plugin / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Surefire / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Duplications / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Checkstyle / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin PMD / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Java / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Core / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Database Cleaner / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Squid for Java / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Design / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Email notifications / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:09 INFO  org.sonar.INFO  Install plugins done: 150 ms
+2015.08.18 21:21:09 INFO  o.s.s.p.ApplicationDeployer  Deploy Ruby on Rails applications
+2015.08.18 21:21:09 INFO  jruby.rack  jruby 1.6.8 (ruby-1.8.7-p357) (2012-09-18 1772b40) (OpenJDK 64-Bit Server VM 1.7.0_79) [linux-amd64-java]
+2015.08.18 21:21:09 INFO  jruby.rack  using a shared (threadsafe!) runtime
+STATUS | wrapper  | 2015/08/18 21:21:10 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/08/18 21:21:35 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2015/08/18 21:21:36 | Launching a JVM...
+INFO   | jvm 1    | 2015/08/18 21:21:36 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/08/18 21:21:36 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/08/18 21:21:36 | 
+INFO   | jvm 1    | 2015/08/18 21:21:36 | 2015-08-18 21:21:36.627:INFO:oejs.Server:jetty-7.6.11.v20130520
+2015.08.18 21:21:39 INFO  o.s.s.p.ServerImpl  SonarQube Server / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:39 INFO  o.s.s.d.EmbeddedDatabase  Starting embedded database on port 9092 with url jdbc:h2:tcp://localhost:9092/sonar
+2015.08.18 21:21:39 INFO  o.s.s.d.EmbeddedDatabase  Embedded database started. Data stored in: /home/zhoutengteng/Desktop/sonar-3.7.4/data
+2015.08.18 21:21:39 WARN  o.s.c.p.DefaultDatabase  H2 database should be used for evaluation purpose only
+2015.08.18 21:21:39 INFO  o.s.c.p.Database  Create JDBC datasource for jdbc:h2:tcp://localhost:9092/sonar
+2015.08.18 21:21:41 INFO  o.s.s.p.DefaultServerFileSystem  SonarQube home: /home/zhoutengteng/Desktop/sonar-3.7.4
+2015.08.18 21:21:41 INFO  o.s.s.p.DefaultServerFileSystem  Deploy dir: /home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/deploy
+2015.08.18 21:21:41 INFO  org.sonar.INFO  Install plugins...
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Findbugs / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin JaCoCo / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin English Pack / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Maven Batch Plugin / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Surefire / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Duplications / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Checkstyle / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin PMD / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Java / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Core / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Database Cleaner / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Squid for Java / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Design / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:41 INFO  o.s.s.p.PluginDeployer  Deploy plugin Email notifications / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:21:41 INFO  org.sonar.INFO  Install plugins done: 150 ms
+2015.08.18 21:21:41 INFO  o.s.s.p.ApplicationDeployer  Deploy Ruby on Rails applications
+2015.08.18 21:21:42 INFO  jruby.rack  jruby 1.6.8 (ruby-1.8.7-p357) (2012-09-18 1772b40) (OpenJDK 64-Bit Server VM 1.7.0_79) [linux-amd64-java]
+2015.08.18 21:21:42 INFO  jruby.rack  using a shared (threadsafe!) runtime
+INFO   | jvm 1    | 2015/08/18 21:21:49 | JRuby limited openssl loaded. http://jruby.org/openssl
+INFO   | jvm 1    | 2015/08/18 21:21:49 | gem install jruby-openssl for full support.
+2015.08.18 21:21:58 INFO  o.s.s.d.m.DatabaseMigrator  Create database
+2015.08.18 21:21:58 INFO  org.sonar.INFO  Start components...
+2015.08.18 21:21:58 INFO  o.s.j.s.AbstractDatabaseConnector  Initializing Hibernate
+2015.08.18 21:22:00 INFO  o.s.s.p.UpdateCenterClient  Update center: http://update.sonarsource.org/update-center.properties (no proxy)
+2015.08.18 21:22:00 INFO  o.s.s.n.NotificationService  Notification service started (delay 60 sec.)
+2015.08.18 21:22:00 INFO  org.sonar.INFO  Deploy GWT plugins...
+2015.08.18 21:22:00 INFO  org.sonar.INFO  Deploy org.sonar.plugins.design.ui.libraries.LibrariesPage to /home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/deploy/gwt
+2015.08.18 21:22:00 INFO  org.sonar.INFO  Deploy org.sonar.plugins.design.ui.page.DesignPage to /home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/deploy/gwt
+2015.08.18 21:22:00 INFO  org.sonar.INFO  Deploy GWT plugins done: 26 ms
+2015.08.18 21:22:00 INFO  org.sonar.INFO  Load metrics...
+2015.08.18 21:22:01 INFO  o.s.s.s.RegisterMetrics  cleaning alert thresholds...
+2015.08.18 21:22:01 INFO  org.sonar.INFO  Load metrics done: 524 ms
+2015.08.18 21:22:01 INFO  org.sonar.INFO  Register rules [findbugs/java]...
+2015.08.18 21:22:02 INFO  org.sonar.INFO  Register rules [findbugs/java] done: 1186 ms
+2015.08.18 21:22:02 INFO  org.sonar.INFO  Register rules [checkstyle/java]...
+2015.08.18 21:22:03 INFO  org.sonar.INFO  Register rules [checkstyle/java] done: 882 ms
+2015.08.18 21:22:03 INFO  org.sonar.INFO  Register rules [pmd/java]...
+2015.08.18 21:22:04 INFO  org.sonar.INFO  Register rules [pmd/java] done: 1220 ms
+2015.08.18 21:22:04 INFO  org.sonar.INFO  Register rules [pmd-unit-tests/java]...
+2015.08.18 21:22:04 INFO  org.sonar.INFO  Register rules [pmd-unit-tests/java] done: 46 ms
+2015.08.18 21:22:04 INFO  org.sonar.INFO  Register rules [squid/java]...
+2015.08.18 21:22:05 INFO  org.sonar.INFO  Register rules [squid/java] done: 267 ms
+2015.08.18 21:22:05 INFO  org.sonar.INFO  Register rules [common-java/java]...
+2015.08.18 21:22:05 INFO  org.sonar.INFO  Register rules [common-java/java] done: 11 ms
+2015.08.18 21:22:05 INFO  o.s.s.s.RegisterRules  Removing deprecated rules
+2015.08.18 21:22:05 INFO  o.s.s.s.RegisterNewProfiles  Register Quality Profiles...
+2015.08.18 21:22:07 INFO  o.s.s.s.RegisterNewProfiles  Register java profile: Sonar way with Findbugs
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterNewProfiles  Register java profile: Sonar way
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterNewProfiles  Set default java profile: Sonar way
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterNewProfiles  Register Quality Profiles done: 3314 ms
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterQualityModels  Register Quality Models...
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterQualityModels  Register Quality Models done: 0 ms
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterNewMeasureFilters  Register measure filters...
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterNewMeasureFilters  Register measure filter: Projects
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterNewMeasureFilters  Register measure filter: My favourites
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterNewMeasureFilters  Register measure filters done: 32 ms
+2015.08.18 21:22:08 INFO  o.s.s.s.RegisterNewDashboards  Register dashboards...
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterNewDashboards  Register dashboard: Dashboard
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterNewDashboards  Register dashboard: Home
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterNewDashboards  Register dashboard: Hotspots
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterNewDashboards  Register dashboard: Issues
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterNewDashboards  Register dashboard: TimeMachine
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterNewDashboards  Register dashboards done: 181 ms
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterPermissionTemplates  Register permission templates...
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterPermissionTemplates  Set default permission template: default_template
+2015.08.18 21:22:09 INFO  o.s.s.s.RegisterPermissionTemplates  Register permission templates done: 27 ms
+2015.08.18 21:22:09 INFO  o.s.s.s.RenameDeprecatedPropertyKeys  Rename deprecated property keys
+2015.08.18 21:22:09 INFO  org.sonar.INFO  Start components done: 10150 ms
+INFO   | jvm 1    | 2015/08/18 21:22:09 | 2015-08-18 21:22:09.158:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/,file:/home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/},file:/home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server
+INFO   | jvm 1    | 2015/08/18 21:22:09 | 2015-08-18 21:22:09.290:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:9000
+STATUS | wrapper  | 2015/08/18 21:22:59 | TERM trapped.  Shutting down.
+INFO   | jvm 1    | 2015/08/18 21:23:00 | 2015-08-18 21:23:00.575:INFO:oejs.Server:Graceful shutdown SelectChannelConnector@0.0.0.0:9000
+INFO   | jvm 1    | 2015/08/18 21:23:00 | 2015-08-18 21:23:00.579:INFO:oejs.Server:Graceful shutdown o.e.j.w.WebAppContext{/,file:/home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/},file:/home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server
+2015.08.18 21:23:01 INFO  org.sonar.INFO  Stop sonar...
+2015.08.18 21:23:01 INFO  o.s.s.n.NotificationService  Notification service stopped
+2015.08.18 21:23:01 INFO  o.s.s.d.EmbeddedDatabase  Embedded database stopped
+2015.08.18 21:23:01 INFO  org.sonar.INFO  Stop sonar done: 267 ms
+INFO   | jvm 1    | 2015/08/18 21:23:01 | 2015-08-18 21:23:01.877:INFO:oejsh.ContextHandler:stopped o.e.j.w.WebAppContext{/,file:/home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/},file:/home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server
+STATUS | wrapper  | 2015/08/18 21:23:01 | <-- Wrapper Stopped
+STATUS | wrapper  | 2015/08/18 21:23:02 | --> Wrapper Started as Daemon
+STATUS | wrapper  | 2015/08/18 21:23:03 | Launching a JVM...
+INFO   | jvm 1    | 2015/08/18 21:23:03 | Wrapper (Version 3.2.3) http://wrapper.tanukisoftware.org
+INFO   | jvm 1    | 2015/08/18 21:23:03 |   Copyright 1999-2006 Tanuki Software, Inc.  All Rights Reserved.
+INFO   | jvm 1    | 2015/08/18 21:23:03 | 
+INFO   | jvm 1    | 2015/08/18 21:23:03 | 2015-08-18 21:23:03.657:INFO:oejs.Server:jetty-7.6.11.v20130520
+2015.08.18 21:23:06 INFO  o.s.s.p.ServerImpl  SonarQube Server / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:23:07 INFO  o.s.s.d.EmbeddedDatabase  Starting embedded database on port 9092 with url jdbc:h2:tcp://localhost:9092/sonar
+2015.08.18 21:23:07 INFO  o.s.s.d.EmbeddedDatabase  Embedded database started. Data stored in: /home/zhoutengteng/Desktop/sonar-3.7.4/data
+2015.08.18 21:23:07 WARN  o.s.c.p.DefaultDatabase  H2 database should be used for evaluation purpose only
+2015.08.18 21:23:07 INFO  o.s.c.p.Database  Create JDBC datasource for jdbc:h2:tcp://localhost:9092/sonar
+2015.08.18 21:23:08 INFO  o.s.s.p.DefaultServerFileSystem  SonarQube home: /home/zhoutengteng/Desktop/sonar-3.7.4
+2015.08.18 21:23:08 INFO  o.s.s.p.DefaultServerFileSystem  Deploy dir: /home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/deploy
+2015.08.18 21:23:08 INFO  org.sonar.INFO  Install plugins...
+2015.08.18 21:23:08 INFO  o.s.s.p.PluginDeployer  Deploy plugin Findbugs / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:23:08 INFO  o.s.s.p.PluginDeployer  Deploy plugin JaCoCo / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:23:08 INFO  o.s.s.p.PluginDeployer  Deploy plugin English Pack / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:23:08 INFO  o.s.s.p.PluginDeployer  Deploy plugin Maven Batch Plugin / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:23:08 INFO  o.s.s.p.PluginDeployer  Deploy plugin Surefire / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:23:08 INFO  o.s.s.p.PluginDeployer  Deploy plugin Duplications / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:23:08 INFO  o.s.s.p.PluginDeployer  Deploy plugin Checkstyle / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:23:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin PMD / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:23:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Java / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:23:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Core / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:23:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Database Cleaner / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:23:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Squid for Java / 1.3 / 4d7d78e9340e39f53bbf202ed16d1253e6507c36
+2015.08.18 21:23:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Design / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:23:09 INFO  o.s.s.p.PluginDeployer  Deploy plugin Email notifications / 3.7.4 / d25bc0e2a151ba7374f72ce7b1e7ee547ccb8a9f
+2015.08.18 21:23:09 INFO  org.sonar.INFO  Install plugins done: 151 ms
+2015.08.18 21:23:09 INFO  o.s.s.p.ApplicationDeployer  Deploy Ruby on Rails applications
+2015.08.18 21:23:09 INFO  org.sonar.INFO  Start components...
+2015.08.18 21:23:09 INFO  o.s.j.s.AbstractDatabaseConnector  Initializing Hibernate
+2015.08.18 21:23:11 INFO  o.s.s.p.UpdateCenterClient  Update center: http://update.sonarsource.org/update-center.properties (no proxy)
+2015.08.18 21:23:11 INFO  o.s.s.n.NotificationService  Notification service started (delay 60 sec.)
+2015.08.18 21:23:11 INFO  org.sonar.INFO  Deploy GWT plugins...
+2015.08.18 21:23:11 INFO  org.sonar.INFO  Deploy org.sonar.plugins.design.ui.libraries.LibrariesPage to /home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/deploy/gwt
+2015.08.18 21:23:11 INFO  org.sonar.INFO  Deploy org.sonar.plugins.design.ui.page.DesignPage to /home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/deploy/gwt
+2015.08.18 21:23:11 INFO  org.sonar.INFO  Deploy GWT plugins done: 31 ms
+2015.08.18 21:23:11 INFO  org.sonar.INFO  Load metrics...
+2015.08.18 21:23:12 INFO  o.s.s.s.RegisterMetrics  cleaning alert thresholds...
+2015.08.18 21:23:12 INFO  org.sonar.INFO  Load metrics done: 596 ms
+2015.08.18 21:23:12 INFO  org.sonar.INFO  Register rules [findbugs/java]...
+2015.08.18 21:23:13 INFO  org.sonar.INFO  Register rules [findbugs/java] done: 676 ms
+2015.08.18 21:23:13 INFO  org.sonar.INFO  Register rules [checkstyle/java]...
+2015.08.18 21:23:13 INFO  org.sonar.INFO  Register rules [checkstyle/java] done: 445 ms
+2015.08.18 21:23:13 INFO  org.sonar.INFO  Register rules [pmd/java]...
+2015.08.18 21:23:14 INFO  org.sonar.INFO  Register rules [pmd/java] done: 676 ms
+2015.08.18 21:23:14 INFO  org.sonar.INFO  Register rules [pmd-unit-tests/java]...
+2015.08.18 21:23:14 INFO  org.sonar.INFO  Register rules [pmd-unit-tests/java] done: 29 ms
+2015.08.18 21:23:14 INFO  org.sonar.INFO  Register rules [squid/java]...
+2015.08.18 21:23:14 INFO  org.sonar.INFO  Register rules [squid/java] done: 164 ms
+2015.08.18 21:23:14 INFO  org.sonar.INFO  Register rules [common-java/java]...
+2015.08.18 21:23:14 INFO  org.sonar.INFO  Register rules [common-java/java] done: 6 ms
+2015.08.18 21:23:14 INFO  o.s.s.s.RegisterRules  Removing deprecated rules
+2015.08.18 21:23:15 INFO  o.s.s.s.RegisterNewProfiles  Register Quality Profiles...
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterNewProfiles  Register Quality Profiles done: 2356 ms
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterQualityModels  Register Quality Models...
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterQualityModels  Register Quality Models done: 0 ms
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterNewMeasureFilters  Register measure filters...
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterNewMeasureFilters  Register measure filters done: 6 ms
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterNewDashboards  Register dashboards...
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterNewDashboards  Register dashboards done: 16 ms
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterPermissionTemplates  Register permission templates...
+2015.08.18 21:23:18 INFO  o.s.s.s.RegisterPermissionTemplates  Register permission templates done: 1 ms
+2015.08.18 21:23:18 INFO  o.s.s.s.RenameDeprecatedPropertyKeys  Rename deprecated property keys
+2015.08.18 21:23:18 INFO  org.sonar.INFO  Start components done: 9158 ms
+2015.08.18 21:23:18 INFO  jruby.rack  jruby 1.6.8 (ruby-1.8.7-p357) (2012-09-18 1772b40) (OpenJDK 64-Bit Server VM 1.7.0_79) [linux-amd64-java]
+2015.08.18 21:23:18 INFO  jruby.rack  using a shared (threadsafe!) runtime
+INFO   | jvm 1    | 2015/08/18 21:23:25 | JRuby limited openssl loaded. http://jruby.org/openssl
+INFO   | jvm 1    | 2015/08/18 21:23:25 | gem install jruby-openssl for full support.
+INFO   | jvm 1    | 2015/08/18 21:23:33 | 2015-08-18 21:23:33.030:INFO:oejsh.ContextHandler:started o.e.j.w.WebAppContext{/,file:/home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server/},file:/home/zhoutengteng/Desktop/sonar-3.7.4/war/sonar-server
+INFO   | jvm 1    | 2015/08/18 21:23:33 | 2015-08-18 21:23:33.128:INFO:oejs.AbstractConnector:Started SelectChannelConnector@0.0.0.0:9000

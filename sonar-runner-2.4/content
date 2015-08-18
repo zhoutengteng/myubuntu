@@ -1,0 +1,2 @@
+到时候只需要修改 sonar.projectKey，sonar.projectName，java-module.sonar.projectBaseDir 三项为对应文件夹名字即可。
+sonar-project.properties 为手动配置的文件
